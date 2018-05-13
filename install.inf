@@ -1,0 +1,15 @@
+[info]
+title=WikidPad Code Tree
+desc=Supports Code Tree for WikidPad lexer
+type=cudatext-plugin
+subdir=cuda_wikidpad_code_tree
+homepage=https://github.com/CudaText-addons/cuda_wikidpad_code_tree
+
+[item1]
+section=events
+events=on_change_slow
+lexers=WikidPad
+
+[item2]
+section=events
+events=on_open,on_tab_change
